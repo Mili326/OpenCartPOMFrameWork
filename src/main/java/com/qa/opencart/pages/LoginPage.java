@@ -115,4 +115,11 @@ public class LoginPage extends BasePage{
 				return new AccountsPage(driver);
 			
 		}
+	
+	public void getTransactions()
+	{
+		System.out.println("Get all the transactions");
+	}
+	
+	
 }
