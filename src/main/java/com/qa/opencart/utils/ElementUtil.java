@@ -67,7 +67,7 @@ import com.qa.opencart.base.BasePage;
 		}
 
 		public void printElementsText(By locator) {
-			getElementsTextList(locator).stream().forEach(e -> System.out.println(e));
+		//	getElementsTextList(locator).stream().forEach(e -> System.out.println(e));
 		}
 
 		public void getAttributeList(By locator, String attr) {
@@ -99,7 +99,7 @@ import com.qa.opencart.base.BasePage;
 		}
 
 		public void printDropDownOptions(By locator) {
-			getDropDownOptions(locator).stream().forEach(e -> System.out.println(e));
+		//	getDropDownOptions(locator).stream().forEach(e -> System.out.println(e));
 		}
 
 		public List<String> getDropDownOptions(By locator) {
@@ -177,7 +177,7 @@ import com.qa.opencart.base.BasePage;
 		}
 
 		public void printElementsText(By locator, int timeOut) {
-			waitForVisibilityOfElements(locator, timeOut).stream().forEach(e -> System.out.println(e.getText()));
+		//	waitForVisibilityOfElements(locator, timeOut).stream().forEach(e -> System.out.println(e.getText()));
 		}
 
 		/**
